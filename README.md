@@ -1,4 +1,5 @@
 # 🔐 CloudCrypt  
+![CloudCrypt Homepage](assets/pc_dark_home.png)
 ### Encryption & Decryption Web Platform
 
 CloudCrypt is a modern **web-based cryptographic application** designed to demonstrate both **classical and modern encryption algorithms** through a clean, premium user interface.  
@@ -49,6 +50,11 @@ This structure improves usability and gives the project a **professional, produc
 - AES Encrypt & Decrypt  
 
 ### 🎨 UI / UX Features
+
+![CloudCrypt Dark](assets/pc_dark_tool.png)
+
+![CloudCrypt Light](assets/pc_light_tool.png)
+
 - Premium glassmorphism design ✨  
 - Gradient background with depth-of-field effect 🌈  
 - Dark 🌙 / Light ☀️ theme toggle  
@@ -60,6 +66,8 @@ This structure improves usability and gives the project a **professional, produc
 ---
 
 ## 📱 Mobile Optimization
+
+![CloudCrypt Light Mobile](assets/mobile_light_tool.jpg) , ![CloudCrypt Light Mobile](assets/mobile_dark_tool.jpg)
 
 CloudCrypt is fully **mobile-responsive** and optimized for smaller screens using modern CSS techniques.
 
@@ -76,6 +84,8 @@ The user interface dynamically adapts to different screen sizes, ensuring a smoo
 
 ## 🔄 Application Workflow
 
+![CloudCrypt Homepage](assets/architecture.png)
+
 1. 🏠 User opens the **Homepage**  
 2. 📖 Reads about CloudCrypt  
 3. ➡️ Navigates to the **Tool Page**  
@@ -89,7 +99,7 @@ The user interface dynamically adapts to different screen sizes, ensuring a smoo
 
 ## 📁 Project Structure
 
-![CloudCrypt Homepage](assets/structure.png)
+![CloudCrypt Structure](assets/structure.png)
 
 ---
 
@@ -116,5 +126,6 @@ Widely used in real-world security systems.
 pip install -r requirements.txt
 
 python app.py
+
 
 
