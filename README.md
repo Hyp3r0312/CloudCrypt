@@ -89,19 +89,7 @@ The user interface dynamically adapts to different screen sizes, ensuring a smoo
 
 ## 📁 Project Structure
 
-cloudcrypt/
-│
-├── README.md        
-├── app.py
-├── requirements.txt
-│
-├── templates/
-│   ├── index.html
-│   └── tool.html
-│
-└── static/
-    ├── style.css
-    └── script.js
+![CloudCrypt Homepage](assets/structure.png)
 
 ---
 
@@ -128,4 +116,5 @@ Widely used in real-world security systems.
 pip install -r requirements.txt
 
 python app.py
+
 
