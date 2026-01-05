@@ -59,6 +59,21 @@ This structure improves usability and gives the project a **professional, produc
 
 ---
 
+## 📱 Mobile Optimization
+
+CloudCrypt is fully **mobile-responsive** and optimized for smaller screens using modern CSS techniques.
+
+### Mobile Features:
+- 📐 Responsive layout using CSS media queries
+- 📱 Automatic stacking of panels on mobile devices
+- 👆 Touch-friendly buttons and input fields
+- 🔠 Improved text readability on small screens
+- 🚫 No horizontal scrolling on mobile browsers
+
+The user interface dynamically adapts to different screen sizes, ensuring a smooth experience on both **desktop and mobile devices**.
+
+---
+
 ## 🔄 Application Workflow
 
 1. 🏠 User opens the **Homepage**  
@@ -113,3 +128,4 @@ Widely used in real-world security systems.
 pip install -r requirements.txt
 
 python app.py
+
