@@ -67,7 +67,7 @@ This structure improves usability and gives the project a **professional, produc
 
 ## 📱 Mobile Optimization
 
-![CloudCrypt Light Mobile](assets/mobile_light_tool.jpg) , ![CloudCrypt Light Mobile](assets/mobile_dark_tool.jpg)
+![CloudCrypt Light Mobile](assets/mobile_light_tool.jpg)
 
 CloudCrypt is fully **mobile-responsive** and optimized for smaller screens using modern CSS techniques.
 
@@ -126,6 +126,7 @@ Widely used in real-world security systems.
 pip install -r requirements.txt
 
 python app.py
+
 
 
 
