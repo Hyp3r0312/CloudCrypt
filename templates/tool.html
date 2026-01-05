@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CloudCrypt</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+<div class="wrapper">
+    <a href="/" class="back-btn" title="Back to Home">
+    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+        <path d="M15 18l-6-6 6-6"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"/>
+    </svg>
+    </a>
+
+
+    <button class="theme-toggle" onclick="toggleTheme()" id="themeIcon">🌙</button>
+
+
+    <h1>CloudCrypt</h1>
+    <p class="subtitle">Encryption & Decryption Tool</p>
+
+    <div class="content">
+        <!-- LEFT -->
+        <div class="left">
+            <textarea id="text" placeholder="Enter your text here..."></textarea>
+
+            <input id="key" placeholder="Key (Shift for Caesar / Password for AES)">
+
+            <p class="label">Password strength</p>
+            <div class="strength-bar">
+                <div id="strength"></div>
+            </div>
+
+            <div class="buttons">
+                <button onclick="runAlgo('caesar_encrypt')">Caesar Encrypt</button>
+                <button onclick="runAlgo('caesar_decrypt')">Caesar Decrypt</button>
+                <button onclick="runAlgo('base64_encrypt')">Base64 Encode</button>
+                <button onclick="runAlgo('base64_decrypt')">Base64 Decode</button>
+                <button onclick="runAlgo('aes_encrypt')">AES Encrypt</button>
+                <button onclick="runAlgo('aes_decrypt')">AES Decrypt</button>
+            </div>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="right">
+            <div class="card">
+                <h3>Algorithm Description</h3>
+                <p id="desc">Select an algorithm to see description.</p>
+            </div>
+
+            <div class="card">
+                <h3>Output</h3>
+                <pre id="result">---</pre>
+                <button class="copy" onclick="copyText()">Copy</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
